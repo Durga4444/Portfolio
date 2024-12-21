@@ -29,7 +29,7 @@ function App() {
       {Loading ? (
       <div className="loader"> 
         <HashLoader
-          color={'#9067C6'}
+          color={' #a00b62'}
           loading={true}
           size={100}
           aria-label="Loading Spinner"

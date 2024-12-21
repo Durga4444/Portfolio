@@ -6,7 +6,7 @@ import {SiCodechef, SiLeetcode} from "react-icons/si"
 const Footer = () => {
   return (
     <footer>
-      <h4>BHUVANESHWARI PORTFOLIO</h4> 
+      <h4>BHUVANESHWARI'S PORTFOLIO</h4> 
     </footer>
   )
 }

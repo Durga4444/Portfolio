@@ -14,16 +14,11 @@ const Skills = ({skill}) => {
         Javascript: <DiJavascript1/>,
         Python : <FaPython/>,
         'C++':<CgCPlusPlus/>,
-        c:<SiC/>,
-        DSA: <SiAlgorithms />,
+        C:<SiC/>,
+        DSA: <AiOutlineNodeIndex/>,
         HTML :<FaHtml5/>,
         CSS:<FaCss3Alt/>,
-      
         DBMS:<FaDatabase/>
-
-        
-       
-       
     }
     
   return (
