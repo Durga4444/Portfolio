@@ -22,11 +22,13 @@ jobs:
         with:
           node-version: 20
           cache: npm
-      - run: npm ci           # use `npm install` if you have no package-lock.json
+      - run: npm ci
       - run: npm run build
+        env:
+          CI: false
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build       # CRA outputs to build/, Vite would be dist/
+          path: ./build
 
   deploy:
     needs: build
